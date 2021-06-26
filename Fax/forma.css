@@ -102,17 +102,34 @@
 
     .imagem-logo {
         display: block;
-        margin-left: 3.6em;
         margin-top: 5em;
         height: 150px;
         width: 150px;
     }
 
+    @media (min-width: 200px ) {
+      .imagem-logo {
+        margin-left: 1.5em;
+      }
+    }
+
+    @media (min-width: 400px ) {
+      .imagem-logo {
+        margin-left: 3.5em;
+      }
+    }
+
     @media (min-width: 600px ) {
       .imagem-logo {
-        margin-left: 5.3em;
-        }
+        margin-left: 5em;
       }
+    }
+
+    @media (min-width: 1200px ) {
+      .imagem-logo {
+        margin-left: 5.2em;
+      }
+    }
 
    .site-title,
    .site-subtitle{
